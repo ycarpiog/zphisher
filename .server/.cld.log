@@ -1,0 +1,25 @@
+{"level":"info","time":"2025-01-07T20:09:37Z","message":"Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee, are subject to the Cloudflare Online Services Terms of Use (https://www.cloudflare.com/website-terms/), and Cloudflare reserves the right to investigate your use of Tunnels for violations of such terms. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps"}
+{"level":"info","time":"2025-01-07T20:09:37Z","message":"Requesting new quick Tunnel on trycloudflare.com..."}
+{"level":"info","time":"2025-01-07T20:09:40Z","message":"+--------------------------------------------------------------------------------------------+"}
+{"level":"info","time":"2025-01-07T20:09:40Z","message":"|  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |"}
+{"level":"info","time":"2025-01-07T20:09:40Z","message":"|  https://velvet-pci-recreation-bra.trycloudflare.com                                       |"}
+{"level":"info","time":"2025-01-07T20:09:40Z","message":"+--------------------------------------------------------------------------------------------+"}
+{"level":"info","time":"2025-01-07T20:09:40Z","message":"Cannot determine default configuration path. No file [config.yml config.yaml] in [~/.cloudflared ~/.cloudflare-warp ~/cloudflare-warp /etc/cloudflared /usr/local/etc/cloudflared]"}
+{"level":"info","time":"2025-01-07T20:09:40Z","message":"Version 2025.1.0 (Checksum 8734f79dbdcb91e305fa48d837840c8c0d14f143ed390c516b86c2c292d9b368)"}
+{"level":"info","time":"2025-01-07T20:09:40Z","message":"GOOS: linux, GOVersion: go1.22.5, GoArch: amd64"}
+{"level":"info","time":"2025-01-07T20:09:40Z","message":"Settings: map[ha-connections:1 logfile:.server/.cld.log protocol:quic url:127.0.0.1:8080]"}
+{"level":"info","time":"2025-01-07T20:09:40Z","message":"Generated Connector ID: 2eefe7cf-8e6d-44ae-9aa3-f61e1a2b59d9"}
+{"level":"info","autoupdateFreq":86400000,"time":"2025-01-07T20:09:40Z","message":"Autoupdate frequency is set"}
+{"level":"info","time":"2025-01-07T20:09:40Z","message":"Initial protocol quic"}
+{"level":"info","time":"2025-01-07T20:09:40Z","message":"ICMP proxy will use 192.168.3.160 as source for IPv4"}
+{"level":"info","time":"2025-01-07T20:09:40Z","message":"ICMP proxy will use fe80::8a17:50fc:b452:8381 in zone enx606d3cdf6c83 as source for IPv6"}
+{"level":"info","time":"2025-01-07T20:09:40Z","message":"ICMP proxy will use 192.168.3.160 as source for IPv4"}
+{"level":"info","time":"2025-01-07T20:09:40Z","message":"ICMP proxy will use fe80::8a17:50fc:b452:8381 in zone enx606d3cdf6c83 as source for IPv6"}
+{"level":"info","time":"2025-01-07T20:09:40Z","message":"Starting metrics server on 127.0.0.1:20241/metrics"}
+{"level":"info","event":0,"connection":"7b0c0f5b-33a7-4d85-8c81-fa927abed7e3","connIndex":0,"location":"gru07","ip":"198.41.192.67","protocol":"quic","time":"2025-01-07T20:09:41Z","message":"Registered tunnel connection"}
+{"level":"info","time":"2025-01-07T20:11:05Z","message":"Initiating graceful shutdown due to signal interrupt ..."}
+{"level":"error","event":0,"ip":"198.41.192.67","connIndex":0,"error":"context canceled","time":"2025-01-07T20:11:05Z","message":"Failed to serve tunnel connection"}
+{"level":"info","event":0,"ip":"198.41.192.67","connIndex":0,"time":"2025-01-07T20:11:05Z","message":"Retrying connection in up to 1s"}
+{"level":"error","time":"2025-01-07T20:11:05Z","message":"no more connections active and exiting"}
+{"level":"info","time":"2025-01-07T20:11:05Z","message":"Tunnel server stopped"}
+{"level":"info","time":"2025-01-07T20:11:05Z","message":"Metrics server stopped"}
